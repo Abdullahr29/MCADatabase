@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jScrollPane1" min="-2" pref="90" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                      <Component id="jTabbedPane1" max="32767" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jRadioButton1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jSpinner1" min="-2" pref="148" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="100" max="-2" attributes="0"/>
+                              <Component id="jInternalFrame1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="unrelated" pref="81" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="hell" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jComboBox1" alignment="1" min="-2" pref="128" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jRadioButton1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                      <Component id="jTabbedPane1" min="-2" pref="109" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jComboBox1" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                              <Component id="hell" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                              <Component id="jSpinner1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="85" max="-2" attributes="0"/>
+                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jInternalFrame1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jScrollPane1" min="-2" pref="239" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JRadioButton" name="jRadioButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jRadioButton1"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTree" name="jTree1">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JSpinner" name="jSpinner1">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="97">
+            <StringItem index="0" value="Select Time"/>
+            <StringItem index="1" value="00:00"/>
+            <StringItem index="2" value="00:15"/>
+            <StringItem index="3" value="00:30"/>
+            <StringItem index="4" value="00:45"/>
+            <StringItem index="5" value="01:00"/>
+            <StringItem index="6" value="01:15"/>
+            <StringItem index="7" value="01:30"/>
+            <StringItem index="8" value="01:45"/>
+            <StringItem index="9" value="02:00"/>
+            <StringItem index="10" value="02:15"/>
+            <StringItem index="11" value="02:30"/>
+            <StringItem index="12" value="02:45"/>
+            <StringItem index="13" value="03:00"/>
+            <StringItem index="14" value="03:15"/>
+            <StringItem index="15" value="03:30"/>
+            <StringItem index="16" value="03:45"/>
+            <StringItem index="17" value="04:00"/>
+            <StringItem index="18" value="04:15"/>
+            <StringItem index="19" value="04:30"/>
+            <StringItem index="20" value="04:45"/>
+            <StringItem index="21" value="05:00"/>
+            <StringItem index="22" value="05:15"/>
+            <StringItem index="23" value="05:30"/>
+            <StringItem index="24" value="05:45"/>
+            <StringItem index="25" value="06:00"/>
+            <StringItem index="26" value="06:15"/>
+            <StringItem index="27" value="06:30"/>
+            <StringItem index="28" value="06:45"/>
+            <StringItem index="29" value="07:00"/>
+            <StringItem index="30" value="07:15"/>
+            <StringItem index="31" value="07:30"/>
+            <StringItem index="32" value="07:45"/>
+            <StringItem index="33" value="08:00"/>
+            <StringItem index="34" value="08:15"/>
+            <StringItem index="35" value="08:30"/>
+            <StringItem index="36" value="08:45"/>
+            <StringItem index="37" value="09:00"/>
+            <StringItem index="38" value="09:15"/>
+            <StringItem index="39" value="09:30"/>
+            <StringItem index="40" value="09:45"/>
+            <StringItem index="41" value="10:00"/>
+            <StringItem index="42" value="10:15"/>
+            <StringItem index="43" value="10:30"/>
+            <StringItem index="44" value="10:45"/>
+            <StringItem index="45" value="11:00"/>
+            <StringItem index="46" value="11:15"/>
+            <StringItem index="47" value="11:30"/>
+            <StringItem index="48" value="11:45"/>
+            <StringItem index="49" value="12:00"/>
+            <StringItem index="50" value="12:15"/>
+            <StringItem index="51" value="12:30"/>
+            <StringItem index="52" value="12:45"/>
+            <StringItem index="53" value="13:00"/>
+            <StringItem index="54" value="13:15"/>
+            <StringItem index="55" value="13:30"/>
+            <StringItem index="56" value="13:45"/>
+            <StringItem index="57" value="14:00"/>
+            <StringItem index="58" value="14:15"/>
+            <StringItem index="59" value="14:30"/>
+            <StringItem index="60" value="14:45"/>
+            <StringItem index="61" value="15:00"/>
+            <StringItem index="62" value="15:15"/>
+            <StringItem index="63" value="15:30"/>
+            <StringItem index="64" value="15:45"/>
+            <StringItem index="65" value="16:00"/>
+            <StringItem index="66" value="16:15"/>
+            <StringItem index="67" value="16:30"/>
+            <StringItem index="68" value="16:45"/>
+            <StringItem index="69" value="17:00"/>
+            <StringItem index="70" value="17:15"/>
+            <StringItem index="71" value="17:30"/>
+            <StringItem index="72" value="17:45"/>
+            <StringItem index="73" value="18:00"/>
+            <StringItem index="74" value="18:15"/>
+            <StringItem index="75" value="18:30"/>
+            <StringItem index="76" value="18:45"/>
+            <StringItem index="77" value="19:00"/>
+            <StringItem index="78" value="19:15"/>
+            <StringItem index="79" value="19:30"/>
+            <StringItem index="80" value="19:45"/>
+            <StringItem index="81" value="20:00"/>
+            <StringItem index="82" value="20:15"/>
+            <StringItem index="83" value="20:30"/>
+            <StringItem index="84" value="20:45"/>
+            <StringItem index="85" value="21:00"/>
+            <StringItem index="86" value="21:15"/>
+            <StringItem index="87" value="21:30"/>
+            <StringItem index="88" value="21:45"/>
+            <StringItem index="89" value="22:00"/>
+            <StringItem index="90" value="22:15"/>
+            <StringItem index="91" value="22:30"/>
+            <StringItem index="92" value="22:45"/>
+            <StringItem index="93" value="23:00"/>
+            <StringItem index="94" value="23:15"/>
+            <StringItem index="95" value="23:30"/>
+            <StringItem index="96" value="23:45"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox1ActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="hell">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="hello"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="hellActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JSplitPane" name="jSplitPane1">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="tab1">
+                <Property name="tabTitle" type="java.lang.String" value="tab1"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JSplitPane" name="jSplitPane2">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout$JSplitPaneConstraintsDescription">
+                  <JSplitPaneConstraints position="left"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout"/>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="0" pref="60" max="32767" attributes="0"/>
+                  <Component id="jSplitPane3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="60" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="0" pref="37" max="32767" attributes="0"/>
+                  <Component id="jSplitPane3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="108" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JSplitPane" name="jSplitPane3">
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout"/>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JInternalFrame" name="jInternalFrame1">
+      <Properties>
+        <Property name="visible" type="boolean" value="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="81" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="62" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+  </SubComponents>
+</Form>
